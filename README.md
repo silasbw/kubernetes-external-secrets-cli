@@ -11,7 +11,8 @@ npm i -g external-secrets-cli
 
 ## Usage
 
-Get the `Secret` object you'd like to managed as an `ExternalSecret`:
+Get the `Secret` object you'd like to managed as an
+`ExternalSecret`. For example:
 
 ```
 kubectl -n my-app get secret my-app -o json > secret.json
@@ -23,5 +24,5 @@ an `ExternalSecret` manifest:
 
 ```
 mkdir data
-external-secrets-cli --input secret.json --ouput data
+escli --input secret.json --ouput data
 ```
