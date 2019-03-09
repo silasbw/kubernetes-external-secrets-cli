@@ -1,6 +1,6 @@
 {
   "name": "kubernetes-external-secrets-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CLI for manipulating Kubernetes ExternalSecrets",
   "main": "index.js",
   "bin": {
