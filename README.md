@@ -1,2 +1,4 @@
 # external-secrets-cli
-CLI for manipulating ExternalSecrets
+
+CLI for manipulating ExternalSecrets.
+
