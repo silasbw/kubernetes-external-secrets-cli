@@ -4,7 +4,7 @@
   "description": "CLI for manipulating ExternalSecrets",
   "main": "index.js",
   "bin": {
-    "escli": "cli.js"
+    "escli": "bin/cli.js"
   },
   "scripts": {
     "release": "standard-version --tag-prefix=''",
