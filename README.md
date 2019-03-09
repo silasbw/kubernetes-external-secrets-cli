@@ -1,4 +1,4 @@
-# external-secrets-cli
+# kubernetes-external-secrets-cli
 
 CLI for converting [Kubernetes Secrets](https://kubernetes.io/docs/concepts/configuration/secret/) to
 [Kubernetes ExternalSecrets](https://github.com/godaddy/kubernetes-external-secrets).
@@ -6,7 +6,7 @@ CLI for converting [Kubernetes Secrets](https://kubernetes.io/docs/concepts/conf
 ## Install
 
 ```
-npm i -g external-secrets-cli
+npm i -g kubernetes-external-secrets-cli
 ```
 
 ## Usage
@@ -24,5 +24,5 @@ an `ExternalSecret` manifest:
 
 ```
 mkdir data
-escli --input secret.json --ouput data
+kescli --input secret.json --ouput data
 ```
