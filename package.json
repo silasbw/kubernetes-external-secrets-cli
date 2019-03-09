@@ -1,6 +1,6 @@
 {
   "name": "external-secrets-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI for manipulating ExternalSecrets",
   "main": "index.js",
   "bin": {
