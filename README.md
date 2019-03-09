@@ -1,4 +1,4 @@
-# external-secrets-cli
+# kubernetes-external-secrets-cli
 
 CLI for converting [Kubernetes Secrets](https://kubernetes.io/docs/concepts/configuration/secret/) to
 [Kubernetes ExternalSecrets](https://github.com/godaddy/kubernetes-external-secrets).
