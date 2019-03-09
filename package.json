@@ -7,6 +7,7 @@
     "escli": "cli.js"
   },
   "scripts": {
+    "release": "standard-version --tag-prefix=''",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/silasbw/external-secrets-cli#readme",
   "dependencies": {
     "js-yaml": "^3.12.2"
+  },
+  "devDependencies": {
+    "standard-version": "^5.0.1"
   }
 }
