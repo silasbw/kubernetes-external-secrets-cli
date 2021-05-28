@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/silasbw/kubernetes-external-secrets-cli#readme",
   "dependencies": {
-    "js-yaml": "^3.12.2"
+    "js-yaml": "^3.12.2",
+    "yargs": "^17.0.1"
   },
   "devDependencies": {
     "standard-version": "^5.0.1"
